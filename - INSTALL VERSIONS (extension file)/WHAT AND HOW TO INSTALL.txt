@@ -1,0 +1,12 @@
+Extension file: "5e Content Chat Poster.ext" 
+
+Includes: 
+	This is the actual extension.
+	Use the latest version available in this folder, earlier versions are there for backup purposes.
+
+Where to place:
+	Copy this file to your extension folder (example: Fantasy Grounds\Data\extensions\ [place file here] ).
+
+How to use:
+	When running a D&D 5e game in Fantasy Grounds, the GM can select this extension in the extension list for that campaign. 
+	It is named '5e - Content Chat Poster' in that list.

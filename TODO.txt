@@ -1,0 +1,3 @@
+  Register and handle pop-up menu.
+    registerMenuItem
+    onMenuSelection

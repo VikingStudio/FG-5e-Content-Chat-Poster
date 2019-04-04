@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--	
+	Copyright (C) Styrmir, I take no liability in any negative effects the use of this extension may have on your system.
+	You are free to download and load this extension for use in your FG games, and access its API with your own extensions but modification and redistribution is prohibited.
+-->
+
+<root version="3.0" release="1">
+
+	<properties>
+		<name>5e - Content Chat Poster</name>
+		<version>1.0.0</version>
+		
+		<author>Styrmir T.</author>
+		<description>5e - Content Chat Poster</description>
+		
+		<ruleset>5E</ruleset>
+	</properties>
+    
+
+	<base>		
+		<!-- Menu item -->						
+		<string name="textshare">Post Text in Chat</string>			
+		<includefile source="graphics/graphics_radial.xml" />	
+		<icon name="textshare" file="graphics/radial/icon_broadcast.png" />	
+
+		<script name="ContentPost" file="scripts/share.lua" /> 		
+
+		<includefile source="campaign/record_note.xml" />		<!-- note: <windowclass name="note"> -->
+		<includefile source="campaign/record_ability.xml" />    <!-- pc feat/feature/trait: <windowclass name="ref_ability">  -->
+		<includefile source="campaign/record_power.xml" />	  	<!-- spells: <windowclass name="power"> -->		
+		<includefile source="campaign/record_feat.xml" />	    <!-- Feat from list: <windowclass name="reference_feat"> -->	
+	</base>		
+
+	<announcement text="5e - Content Chat Poster v1.0.0" font="emotefont" icon="icon" />	
+</root>
